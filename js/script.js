@@ -29,7 +29,7 @@ function lasValidation(status) {
     input.classList.remove("wrong");
     lableWrong.classList.add("d-none");
     lableWrong.classList.remove("d-blcok");
-    redirect("/thankyou.html");
+    redirect("/frontendmentor-project6/thankyou.html");
   }
 }
 
