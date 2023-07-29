@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+#main-section {
+  min-height: 100vh;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  background-color: hsl(235, 18%, 26%);
+}
+
+.container {
+}
+
+.card {
+  box-sizing: border-box;
+}
+
+.checklist-logo {
+  width: 23px;
+}
+
+.fs-7 {
+  font-size: 13px;
+}
+
+p {
+  color: hsl(235, 18%, 26%) !important;
+}
+
+.form-control:focus {
+  --bs-focus-ring-color: rgba(var(--bs-white-rgb), 0.25);
+  border: 2px solid black !important;
+  background-color: none !important;
+}
+#button-gradiant {
+  transition: all 1s !important;
+}
+#button-gradiant:hover {
+  background: linear-gradient(to right, hsl(346, 100%, 62%) 0%, hsl(19, 100%, 67%) 100%);
+  border: 1px solid transparent;
+  box-shadow: 0px 10px 43px 2px hsl(4, 100%, 67%, 0.5);
+}
+
+.form-control.wrong {
+  background-color: rgba(255, 0, 0, 0.2) !important;
+  color: rgba(255, 0, 0, 0.5) !important;
+  border: 2px solid rgba(255, 0, 0, 0.5) !important;
+}
+
+.ukuran-sendiri {
+  width: 60px !important;
+}
+
+.container-lain {
+  width: 60%;
+  margin: auto;
+}

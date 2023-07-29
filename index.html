@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/images/favicon-32x32.png" />
+    <title>Newsletter sign-up form with success message</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  </head>
+  <body>
+    <section id="main-section">
+      <div class="container">
+        <div class="container-fluid w-75">
+          <div class="card rounded-5 shadow-lg border-0">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 p-0 px-5 d-flex flex-column justify-content-center">
+                  <h1 class="fw-bold display-5 mb-4">Stay updated!</h1>
+                  <p class="mb-4">Join 60,000+ product managers receiving monthly updates on:</p>
+                  <p class="mb-3"><img class="checklist-logo me-2" src="assets/images/icon-success.svg" alt="" /> Product dicovery and building what matters</p>
+                  <p class="mb-3"><img class="checklist-logo me-2" src="assets/images/icon-success.svg" alt="" /> Measuring to ensure updates are success</p>
+                  <p class="mb-4"><img class="checklist-logo me-2" src="assets/images/icon-success.svg" alt="" /> And much more!</p>
+                  <form id="loginForm">
+                    <div class="mb-3">
+                      <div>
+                        <label for="exampleInputEmail1" class="form-label fs-7 fw-bold">Email address</label
+                        ><label id="label-wrong" for="exampleInputEmail1" class="form-label text-danger text-opacity-75 float-end fs-7 fw-bold d-none">Valid email required</label>
+                      </div>
+                      <input type="email" class="form-control focus-ring p-3 border-2 mb-4" placeholder="email@company.com" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                      <div id="emailHelp" class="form-text d-none">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <a type="submit" id="button-gradiant" class="btn btn-dark w-100 p-3 fw-bold">Subscribe to monthly newsletter</a>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-6 p-4 d-flex justify-content-end">
+                  <img src="assets/images/illustration-sign-up-desktop.svg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

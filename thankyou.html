@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/images/favicon-32x32.png" />
+    <title>Newsletter sign-up form with success message</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  </head>
+  <body>
+    <section id="main-section">
+      <div class="container-lain">
+        <div class="container-fluid w-50">
+          <div class="card rounded-5 shadow-lg border-0 p-5">
+            <div class="container-fluid">
+              <img src="assets/images/icon-success.svg" class="ukuran-sendiri mb-4" alt="" />
+              <h1 class="display-5 fw-bold mb-4">Thanks for subscribing!</h1>
+              <p class="mb-4">S confirmation email has been sent to <span id="emailg" class="fw-bold">example@gmail.com</span>. Please open it and click the button inside to confirm your subscription.</p>
+              <a type="submit" id="button-gradiant" class="btn btn-dark w-100 p-3 fw-bold">Dimiss Message</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      let email = document.querySelector("#emailg");
+      window.onload = email.innerHTML = "haha@nice.com";
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
